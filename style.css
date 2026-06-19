@@ -1,30 +1,33 @@
-body{
-  background-color: aqua;
+.em{
+  font-size: 2em;
+}
+.rem{
+  font-size: 2rem;
+}
+.vw{
+  font-size: 5vw;
+}
+.vh{
+  font-size: 5vh
 }
 
-.card {
-  background-color: white;
-  border: 2px solid black;
-  width: 400px;
-  height: 200px;
-  text-align: center;
-  margin-left: 590px;
-}
-h1 {
-  font-family: "Oswald", sans-serif;
+a{
+  color: red;
 }
 
-h2 {
-  font-family: "Courier New", monospace;
+a:hover{
+  color: blue;
 }
 
-.int {
-  font-family: Arial, sans-serif;
+a:active{
+  background-color: red;
+  text-decoration: none;
 }
 
-.def {
-  font-family: "Bebas Neue";
+input:focus{
+  background-color: blue;
 }
-p{
-  text-align: center;
+
+.text::after{
+  content: "Coddycamp salom hhjahjbajkfakj";
 }
