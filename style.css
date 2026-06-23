@@ -1,33 +1,49 @@
-.em{
-  font-size: 2em;
+body {
+  background-color: rgb(56, 56, 172);
 }
-.rem{
-  font-size: 2rem;
+.container {
+  text-align: center;
 }
-.vw{
-  font-size: 5vw;
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Sansita Swashed", system-ui;
 }
-.vh{
-  font-size: 5vh
+.btn {
+  width: 140px;
+  height: 60px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  border-radius: 12px;
+  padding: 12px;
+  border: 0;
+  font-size: 24px;
+  font-family: "Smooch Sans", sans-serif;
+  cursor: pointer;
 }
-
-a{
-  color: red;
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
-
-a:hover{
-  color: blue;
-}
-
-a:active{
+.card1 {
+  width: 250px;
+  height: 250px;
   background-color: red;
-  text-decoration: none;
+  border-radius: 14px;
 }
-
-input:focus{
+.card2 {
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  border-radius: 14px;
+}
+.card3 {
+  width: 250px;
+  height: 250px;
   background-color: blue;
-}
-
-.text::after{
-  content: "Coddycamp salom hhjahjbajkfakj";
+  border-radius: 14px;
 }
