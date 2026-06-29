@@ -3,214 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minecraft World</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
   </head>
   <body>
-    <!-- ================= NAVBAR ================= -->
-
-    <nav class="navbar">
-      <div class="logo">MINECRAFT</div>
-
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#cards">Mobs</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- ================= HEADER ================= -->
-
-    <header class="header" id="home">
-      <div class="hero-content">
-        <h1>WELCOME TO THE MINECRAFT WORLD</h1>
-
-        <p>
-          Explore endless adventures, survive dangerous nights, build your dream
-          castle and discover unlimited creativity.
-        </p>
-
-        <a href="#" class="btn"> PLAY NOW </a>
-      </div>
-    </header>
-
-    <!-- ================= ABOUT ================= -->
-
-    <section class="about" id="about">
-      <div class="about-image">
-        <img src="./img/img.webp" alt="Minecraft" />
-      </div>
-
-      <div class="about-text">
-        <h2>About Minecraft</h2>
-
-        <p>
-          Minecraft is one of the most popular sandbox games in the world.
-          Players can explore infinite worlds, gather resources, build
-          incredible structures, survive monsters, and play together with
-          friends.
-        </p>
-
-        <p>
-          Every world is randomly generated which makes each adventure
-          completely unique.
-        </p>
-
-        <a href="#" class="btn"> Learn More </a>
-      </div>
-    </section>
-
-    <!-- ================= FEATURES ================= -->
-
-    <section class="features" id="features">
-      <h2 class="section-title">Game Features</h2>
-
-      <div class="feature-container">
-        <div class="feature-box">
-          <img src="images/survival.jpg" alt="" />
-
-          <h3>Survival Mode</h3>
-
-          <p>
-            Gather resources, fight monsters, craft tools and survive every
-            night.
-          </p>
+    <div class="container">
+      <div class="navbar">
+        <div class="nav_left">
+          <img src="./img/Logo copy.svg" alt="img" />
+          <h1 class="nav_left_title">Open Enterprise</h1>
         </div>
-
-        <div class="feature-box">
-          <img src="images/creative.jpg" alt="" />
-
-          <h3>Creative Mode</h3>
-
-          <p>
-            Unlimited blocks, unlimited imagination. Build anything you dream.
-          </p>
-        </div>
-
-        <div class="feature-box">
-          <img src="images/multiplayer.jpg" alt="" />
-
-          <h3>Multiplayer</h3>
-
-          <p>Join your friends and create huge worlds together.</p>
+        <div class="nav_right">
+          <ul>
+            <li><a href="#">Why Open Enterprise</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li><a class="nav_right_text" href="#">Request early access</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-
-    <!-- ================= MOB CARDS ================= -->
-
-    <section class="cards" id="cards">
-      <h2 class="section-title">Minecraft Dimensions</h2>
-
-      <div class="card-container">
-        <div class="card">
-          <img src="images/nether.jpg" alt="" />
-
-          <h3>Nether</h3>
-
-          <p>Dangerous dimension full of lava, fire and powerful mobs.</p>
-        </div>
-
-        <div class="card">
-          <img src="images/end.jpg" alt="" />
-
-          <h3>The End</h3>
-
-          <p>Home of the legendary Ender Dragon.</p>
-        </div>
-
-        <div class="card">
-          <img src="images/village.jpg" alt="" />
-
-          <h3>Village</h3>
-
-          <p>Trade with villagers and build your own civilization.</p>
-        </div>
-        <div class="card">
-          <img src="images/castle.jpg" alt="Minecraft Castle" />
-
-          <h3>Castle</h3>
-
-          <p>Build giant castles and protect your kingdom from enemies.</p>
-        </div>
-
-        <div class="card">
-          <img src="images/forest.jpg" alt="Forest" />
-
-          <h3>Forest</h3>
-
-          <p>
-            Discover beautiful forests filled with animals, trees and hidden
-            treasures.
-          </p>
-        </div>
-
-        <div class="card">
-          <img src="images/dragon.jpg" alt="Ender Dragon" />
-
-          <h3>Ender Dragon</h3>
-
-          <p>
-            Face the strongest boss in Minecraft and become the ultimate
-            survivor.
-          </p>
-        </div>
+      <div class="hero">
+        
       </div>
-    </section>
-
-    <!-- ================= GALLERY ================= -->
-
-    <section class="gallery" id="gallery">
-      <h2 class="section-title">Minecraft Gallery</h2>
-
-      <div class="gallery-container">
-        <img src="images/hero.jpg" alt="" />
-        <img src="images/about.jpg" alt="" />
-        <img src="images/nether.jpg" alt="" />
-        <img src="images/end.jpg" alt="" />
-        <img src="images/village.jpg" alt="" />
-        <img src="images/cave.jpg" alt="" />
-        <img src="images/forest.jpg" alt="" />
-        <img src="images/castle.jpg" alt="" />
-      </div>
-    </section>
-
-    <!-- ================= CONTACT ================= -->
-
-    <section class="contact" id="contact">
-      <h2 class="section-title">Contact Us</h2>
-
-      <form>
-        <input type="text" placeholder="Your Name" required />
-
-        <input type="email" placeholder="Your Email" required />
-
-        <textarea rows="6" placeholder="Write your message..."></textarea>
-
-        <button class="btn">Send Message</button>
-      </form>
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-      <div class="footer-content">
-        <h2>Minecraft World</h2>
-
-        <p>Explore • Build • Survive</p>
-
-        <div class="social">
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">YouTube</a>
-          <a href="#">Discord</a>
-        </div>
-
-        <p class="copyright">© 2026 Minecraft World. All Rights Reserved.</p>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
