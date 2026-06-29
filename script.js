@@ -1,11 +1,17 @@
+var name = "Ali";
+console.log(name);
+
+var name = "Vali";
+console.log(name);
+
 var name = "Aziz";
 console.log(name);
 
-var age = 15;
-console.log(age);
+let city = "London";
+console.log(city);
 
-var surname = "Aliev";
-console.log(surname);
+let city = "Paris";
+console.log(city);
 
-var car = "BMW";
-console.log(car);
+const pi = 3.14;
+console.log(pi);
