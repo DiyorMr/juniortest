@@ -1,3 +1,33 @@
-h1 {
-  color: red;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+.nav_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav_left_title {
+  font-weight: 500;
+  font-size: 32px;
+  color: #303031;
+  font-family: "Smooch Sans", sans-serif;
+}
+.nav_right ul {
+  display: flex;
+  gap: 50px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #303031;
+}
+.nav_right_text {
+  color: #71a894;
 }
